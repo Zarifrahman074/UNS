@@ -1,0 +1,74 @@
+
+header{
+	/*background-color: #D48AF4;*/
+	background-color:yellow;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-bottom: 5px solid red;
+}
+.header .wrapper{
+	/*border: 2px solid red;*/
+	width: 40%;
+	margin: auto;
+	padding-top: 0;
+	text-align: center;
+}
+.header .wrapper img{
+	width:80%;
+	margin:0 15%;
+}
+
+
+.banner {
+	background-image: url(../images/unscover4.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1%;
+
+}
+.banner button{
+	font-family: sans-serif;
+    /*font-size: 16px;*/
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    background-color: red;
+    cursor: pointer;
+}
+.banner button:hover{
+	background-color: whitesmoke;
+	color: black;
+
+}
+/*.banner .button1{
+	width: 10%;
+	margin: 5% auto;
+	margin-bottom: 0;
+}*/
+
+.banner .mb{
+	width: 40%;
+	margin: 5% auto;
+	overflow: hidden;
+	margin-top: 35%;
+}
+.banner .button2{
+	width: 17%;
+	margin: 5% auto;
+	float: left;
+
+}
+.banner .button3{
+	width: 17%;
+	margin: 5% auto;
+	margin-right: 20%;
+	margin-bottom: 10%;
+	float: right;
+
+}
